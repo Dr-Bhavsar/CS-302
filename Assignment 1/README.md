@@ -1,6 +1,6 @@
 # Assignments
 Homework 1
-Due Date: 11/10/2023 11.59PM
+Due Date: 2/11/2024 11.59PM
 
 ## Students
 
@@ -48,6 +48,9 @@ In particular, you should have at least one trace with all right-handed philosop
 
 If you have difficulty achieving deadlock, you can try adding `Thread.yield()` statements after a philosopher acquires a chopstick.
 However, I did not find this necessary with either replit.com or a local JDK.
+
+On top of your last traces, now include both right-handed and left-handed philosophers to avoid deadlock, the classical "five philosophers eating forever" showing a chance deadlock, and the classical "five philosophers eating forever" but with large maximum thinking and eating times. 
+You don't have to limit yourself to just these - any other trace that shows interesting behavior is also appropriate.
 
 For any given deadlock, you should only show the part of the trace from the first chopstick acquisition that causes the deadlock to the deadlock itself.
 Do not include pages and pages of uninteresting trace output.
